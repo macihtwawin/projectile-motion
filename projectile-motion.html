@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="projectile-motion.css">
+        <script type="text/javascript" src="projectile-motion.js" defer></script>
+        <title>working progress</title>
+    </head>
+    <body>        
+        <h3 id="header-title">Projectile motion at a positive angle on a flat plane (ignoring air resistance)</h3>
+        <div class="barrel-vel">
+            Launch speed:<input type="text" id="barrel-vel" size="2">m/s
+         </div>
+        
+         <div class="proj-ang">
+             Angle of projection:<input type="text" id="proj-ang" size="2">°
+         </div>
+            
+         <div class="submit">
+             <button type="submit" onclick="calculate()" class="enter-btn">Enter</button>
+         </div>
+         
+         <div class="planet-picked" id="planet-picked">
+             <h2 class="planet" id="planet">Gravity: Earth</h2>
+         </div>
+         
+         <div class="earthGrav">
+             <button type="submit"  onclick="earthGrav()" class="earthGrav-btn">Earth Gravity</button>
+         </div>
+         
+         <div class="moonGrav">
+             <button type="submit"  onclick="moonGrav()" class="moonGrav-btn">Moon Gravity</button>
+         </div>
+         
+         <div class="marsGrav">
+             <button type="submit" onclick="marsGrav()" class="marsGrav-btn">Mars Gravity</button>
+         </div>
+         
+         <div class="venusGrav">
+             <button type="submit" onclick="venusGrav()" class="venusGrav-btn">Venus Gravity</button>
+         </div>
+            
+         <div class="approx">
+             <h3 id="approx"></h3>
+         </div>
+    </body>
+</html>

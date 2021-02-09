@@ -1,0 +1,81 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+
+.barrel-vel {
+    margin-top:20px;
+}
+
+.proj-ang {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    margin:5px;
+    border:1px solid black;
+    border-radius:5px;
+}
+
+.submit {
+    margin-top:20px;
+}
+
+.enter-btn {
+    margin:5px;
+    font-size:32px;
+    color:white;
+    background-color:black;
+    border-color:black;
+    border-radius:5px;
+}
+
+.planet-picked {
+    position:absolute;
+    left: 150px;
+    top:172px;
+}
+
+.approx {
+    margin-top:50px;
+}
+
+.earthGrav {
+    margin:10px;
+}
+
+.earthGrav-btn {
+    color:white;
+    background-color:green;
+    border-color:green;
+}
+
+.moonGrav {
+    margin:10px;
+}
+
+.moonGrav-btn {
+    color:white;
+    background-color:grey;
+    border-color:grey;
+}
+
+.marsGrav {
+    margin:10px;
+}
+
+.marsGrav-btn {
+    color:white;
+    background-color:red;
+    border-color:red;
+}
+
+.venusGrav {
+    margin:10px;
+}
+
+.venusGrav-btn {
+    color:white;
+    background-color:blue;
+    border-color:blue;
+}
